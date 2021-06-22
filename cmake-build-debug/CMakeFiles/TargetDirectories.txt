@@ -1,0 +1,12 @@
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/install/local.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/package.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/test.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/tests.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/template.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/builder.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/package_source.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/andrey/CLionProjects/lab11/cmake-build-debug/CMakeFiles/install.dir

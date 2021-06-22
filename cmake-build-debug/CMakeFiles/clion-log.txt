@@ -1,0 +1,238 @@
+/snap/clion/152/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/andrey/CLionProjects/lab11
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/andrey/.hunter
+-- [hunter] [ Hunter-ID: 35fa55b | Toolchain-ID: 252be92 | Config-ID: b78b2c5 ]
+-- [hunter] BOOST_ROOT: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Install (ver.: 1.72.0-p1)
+-- [hunter] BOOST_ROOT: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Install (ver.: 1.72.0-p1)
+-- Boost version: 1.72.0
+-- Found the following Boost libraries:
+--   thread
+--   program_options
+--   system
+--   filesystem
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- [hunter] GTEST_ROOT: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Install (ver.: 1.10.0)
+-- [hunter] ASYNC++_ROOT: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Install (ver.: 0.0.3-hunter)
+-- [hunter] Building Async++
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/cache.cmake
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/args.cmake
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Build
+Scanning dependencies of target Async++-Release
+[  6%] Creating directories for 'Async++-Release'
+[ 12%] Performing download step (download, verify and extract) for 'Async++-Release'
+-- Downloading...
+   dst='/home/andrey/.hunter/_Base/Download/Async++/0.0.3-hunter/1d3cfdd/v0.0.3-hunter.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/hunter-packages/asyncplusplus/archive/v0.0.3-hunter.tar.gz'
+-- [download 100% complete]
+-- verifying file...
+       file='/home/andrey/.hunter/_Base/Download/Async++/0.0.3-hunter/1d3cfdd/v0.0.3-hunter.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/andrey/.hunter/_Base/Download/Async++/0.0.3-hunter/1d3cfdd/v0.0.3-hunter.tar.gz'
+     dst='/home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 18%] No update step for 'Async++-Release'
+[ 25%] No patch step for 'Async++-Release'
+[ 31%] Performing configure step for 'Async++-Release'
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/cache.cmake
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/args.cmake
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:67 (add_library):
+  Policy CMP0063 is not set: Honor visibility properties for all target
+  types.  Run "cmake --help-policy CMP0063" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Target "Async++" of type "STATIC_LIBRARY" has the following visibility
+  properties set for CXX:
+
+    CXX_VISIBILITY_PRESET
+    VISIBILITY_INLINES_HIDDEN
+
+  For compatibility CMake is not honoring them for this target.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Build/Async++-Release-prefix/src/Async++-Release-build
+[ 37%] Performing build step for 'Async++-Release'
+Scanning dependencies of target Async++
+[ 33%] Building CXX object CMakeFiles/Async++.dir/src/scheduler.cpp.o
+[ 66%] Building CXX object CMakeFiles/Async++.dir/src/threadpool_scheduler.cpp.o
+[100%] Linking CXX static library libasync++.a
+[100%] Built target Async++
+[ 43%] Performing install step for 'Async++-Release'
+[100%] Built target Async++
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/libasync++.a
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/aligned_alloc.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/cancel.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/continuation_vector.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/parallel_for.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/parallel_invoke.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/parallel_reduce.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/partitioner.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/range.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/ref_count.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/scheduler.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/scheduler_fwd.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/task.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/task_base.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/traits.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/when_all_any.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/cmake/Async++/Async++Config.cmake
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/cmake/Async++/Async++Targets.cmake
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/cmake/Async++/Async++Targets-release.cmake
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/args.cmake
+[ 50%] Completed 'Async++-Release'
+[ 50%] Built target Async++-Release
+Scanning dependencies of target Async++-Debug
+[ 56%] Creating directories for 'Async++-Debug'
+[ 62%] Performing download step (download, verify and extract) for 'Async++-Debug'
+-- verifying file...
+       file='/home/andrey/.hunter/_Base/Download/Async++/0.0.3-hunter/1d3cfdd/v0.0.3-hunter.tar.gz'
+-- File already exists and hash match (skip download):
+  file='/home/andrey/.hunter/_Base/Download/Async++/0.0.3-hunter/1d3cfdd/v0.0.3-hunter.tar.gz'
+  SHA1='1d3cfdde4b18547eace113cdf7ac670fb6a2c420'
+-- extracting...
+     src='/home/andrey/.hunter/_Base/Download/Async++/0.0.3-hunter/1d3cfdd/v0.0.3-hunter.tar.gz'
+     dst='/home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] No update step for 'Async++-Debug'
+[ 75%] No patch step for 'Async++-Debug'
+[ 81%] Performing configure step for 'Async++-Debug'
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/cache.cmake
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/args.cmake
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:67 (add_library):
+  Policy CMP0063 is not set: Honor visibility properties for all target
+  types.  Run "cmake --help-policy CMP0063" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  Target "Async++" of type "STATIC_LIBRARY" has the following visibility
+  properties set for CXX:
+
+    CXX_VISIBILITY_PRESET
+    VISIBILITY_INLINES_HIDDEN
+
+  For compatibility CMake is not honoring them for this target.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Build/Async++-Debug-prefix/src/Async++-Debug-build
+[ 87%] Performing build step for 'Async++-Debug'
+Scanning dependencies of target Async++
+[ 66%] Building CXX object CMakeFiles/Async++.dir/src/scheduler.cpp.o
+[ 66%] Building CXX object CMakeFiles/Async++.dir/src/threadpool_scheduler.cpp.o
+[100%] Linking CXX static library libasync++d.a
+[100%] Built target Async++
+[ 93%] Performing install step for 'Async++-Debug'
+[100%] Built target Async++
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/libasync++d.a
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/aligned_alloc.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/cancel.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/continuation_vector.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/parallel_for.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/parallel_invoke.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/parallel_reduce.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/partitioner.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/range.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/ref_count.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/scheduler.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/scheduler_fwd.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/task.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/task_base.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/traits.h
+-- Up-to-date: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/include/async++/when_all_any.h
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/cmake/Async++/Async++Config.cmake
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/cmake/Async++/Async++Targets.cmake
+-- Installing: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/Install/lib/cmake/Async++/Async++Targets-debug.cmake
+loading initial cache file /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++/args.cmake
+[100%] Completed 'Async++-Debug'
+[100%] Built target Async++-Debug
+-- [hunter] Build step successful (dir: /home/andrey/.hunter/_Base/35fa55b/252be92/b78b2c5/Build/Async++)
+-- [hunter] Cache saved: /home/andrey/.hunter/_Base/Cache/raw/cf960108785f512eebc9b838f269ddcd02f2b697.tar.bz2
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/andrey/CLionProjects/lab11/cmake-build-debug
